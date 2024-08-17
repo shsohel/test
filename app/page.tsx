@@ -1,11 +1,13 @@
 /** @format */
 
-import MinimumDistanceSlider from "../app/components/Slider";
+import Multislider from "../app/components/Multislider";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <MinimumDistanceSlider />
+      <div className="w-[600px]">
+        <Multislider />
+      </div>
     </main>
   );
 }
